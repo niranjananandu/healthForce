@@ -1,0 +1,17 @@
+Bug 1
+Title: Negative numbers are not handled by the application
+
+Steps to reproduce issue:
+1. Enter a negative number in the text box to enter an integer.
+2. Click "Calculate" button.
+3. Observe that the app crashes with a 500 repsonse code.
+
+Bug 2
+Title: The placeholder text reads "Enter an integer", however factorials cannot be calculated on a negative number.
+
+Description: Factorials can only be calculated on numbers >=0. Hence the placeholder text should rather read Enter a number greater than or equal to 0.
+
+Bug 3:
+Title: The page title has a typo "Factoriall"
+
+Description: The page title should be called "Factorial" and not "Factoriall"
