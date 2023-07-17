@@ -1,0 +1,34 @@
+Test 1:
+Calculate the factorial of a positive number
+Steps: 
+1. Navigate to the application URL.
+2. Enter a positive number in the text box
+3. Click Calculate button. 
+4. Ensure that the factorial is calculated successfully and the result is displayed below the Calculate button eg,if 2 is entered, the message
+should be "The factorial of 2 is: 2"
+
+Test 2:
+Calculate the factorial of 0
+Steps: 
+1. Navigate to the application URL.
+2. Enter 0 in the text box
+3. Click Calculate button. 
+4. Ensure that the factorial is calculated successfully and the result is displayed below the Calculate button "The factorial of 0 is: 1"
+
+Test 3:
+Calculate the factorial of a negative number
+Steps: 
+1. Navigate to the application URL.
+2. Enter a negative number in the text box
+3. Click Calculate button. 
+4. A proper error message should be displayed informing the user that factorial can only be calculated for numbers >=0.
+
+Test 4:
+User enters an invalid input such as a letter or a special character
+Steps: 
+1. Navigate to the application URL.
+2. Enter a letter or a special character in the text box
+3. Click Calculate button. 
+4. A proper error message should be displayed "Please enter an integer".
+
+
