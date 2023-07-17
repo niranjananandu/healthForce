@@ -18,14 +18,13 @@ class Calculate:
 
     def calculate(self,userinput):
         factorial = 1
-        for i in range(1,userinput+1):
-            factorial = factorial * i
 
+        if userinput == 0:
+            factorial = 1
+        elif userinput > 0:
+            for i in range(1,userinput+1):
+                factorial = factorial * i
         return factorial
-
-
-
-
 
     def getValidationmessage(self):
         message = self.driver.find_element(By.XPATH, self.result_text).text

@@ -20,9 +20,10 @@ class TestFactorial:
         self.driver.get("http://192.168.3.96:6464/")
         self.driver.maximize_window()
         self.factorial = Factorial.Calculate(self.driver)
-        self.factorial.calculateFactorial(7)
-        result = self.factorial.calculate(7)
+        num = 0
+        self.factorial.calculateFactorial(num)
+        result = self.factorial.calculate(num)
         message = self.factorial.getValidationmessage()
-        assert message == f"The factorial of 7 is: {result}",result
+        assert message == "The factorial of {num} is: {result}".format(num=num,result=result)
         print(message)
         time.sleep(5)
