@@ -1,0 +1,6 @@
+The API call being made when calculate is clicked is as below
+POST: http://192.168.3.96:6464/factorial
+Payload: number: 7
+Response: {
+  "answer": 5040
+}
