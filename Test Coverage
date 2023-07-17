@@ -1,0 +1,2 @@
+Test Coverage:
+All 4 test cases are covered in the code. One of the test cases (negative number) breaks because the application does not handle this scenario.
